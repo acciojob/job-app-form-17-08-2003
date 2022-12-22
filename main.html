@@ -8,31 +8,35 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
-		<label for="name">Name:</label>
-		<input id="name" type="text" required/>
-		<br/>
-		<label for="portfolio">portfolio:</label>
-		<input type="url" required id="portfolio"/>
-		<label for="gender">Gender:</label>
+	<form action="job form" method="post">
+		<label for="name">Name</label>
+		<input id="name" type="text" required>
+		<br>
+		<label for="Email">Email</label>
+		<input id="Email" type="text" required>
+		<br>
+
+		<label for="portfolio">portfolio</label>
+		<input type="url" id="portfolio" required>
+		<label for="gender">Gender</label>
 		<input name="gender" type="radio" id="gender" required/>Male
 		<input name="gender" type="radio" id="gender" required/>Female
-		<br/>
-		<label for="laptop">Laptop</label>
-		<select id="laptop">
+		<br>
+		<label for="laptop">Laptop Brands</label>
+		<select id="laptop" required >
 			<option>Apple</option>
 			<option>Asus</option>
 			<option>HP</option>
-		</select>
-		<label for="age" >Age:</label>
-		<input type="age" id="age"required/>
-		<br/>
+		</select><br>
+		<label for="age" >Age</label>
+		<input type="age" id="age"required>
+		<br>
 		<label for="dob">DOB</label>
 		<input type="age" id="age"required/>
-		<br/>
+		<br>
 		<label for="password">password</label>
-		<input type="password" required id="password"/>
-		<br/>
+		<input type="password" id="password"required>
+		<br>
 		<button type="submit" id="submit button">Submit button</button>
 		
 	</form>
